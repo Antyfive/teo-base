@@ -1,0 +1,32 @@
+{
+  "name": "teo-base",
+  "version": "1.0.0",
+  "description": "Teo.JS base class implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha --require ./test/common.js --reporter spec --ui bdd --recursive --colors --timeout 5000 --slow 300"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Antyfive/teo-base.git"
+  },
+  "keywords": [
+    "Teo.JS",
+    "base",
+    "class",
+    "mvc",
+    "rest",
+    "framework"
+  ],
+  "author": "Andrew Teologov <teologov.and@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Antyfive/teo-base/issues"
+  },
+  "homepage": "https://github.com/Antyfive/teo-base#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "sinon": "^1.17.3"
+  }
+}
